@@ -95,3 +95,12 @@ else:
                 st.markdown("---")
         except Exception as e:
             st.error(f"Search error: {e}")
+# --- Footer ---
+st.markdown("""
+    <hr style='border-color: #333;'>
+    <div style='text-align:center; padding:10px; color:#888'>
+        Made with ❤️ by Im_Dev | 
+        <a href='https://github.com/Dev-comett' target='_blank'>GitHub</a> • 
+        <a href='https://www.linkedin.com/in/dev-ice' target='_blank'>LinkedIn</a>
+    </div>
+""", unsafe_allow_html=True)
