@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import re
 
 # --- Config ---
-st.set_page_config(page_title="Xtractor", layout="wide", page_icon="😎")
+st.set_page_config(page_title="Xtractor", layout="wide", page_icon="⚓")
 
 SERP_API_KEY     = st.secrets["SERP_API_KEY"]
 TOMORROW_API_KEY = st.secrets["TOMORROW_API_KEY"]
